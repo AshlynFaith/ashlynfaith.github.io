@@ -1,0 +1,303 @@
+Searching for integrator.xml ...
+
+integrate:
+
+configuration-jar:
+      [jar] Building jar: /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/lib/dost-configuration.jar
+integrator-complete
+
+init:
+
+dita2html5-bootstrap.init:
+
+html5.init:
+
+init-properties:
+
+check-arg:
+    [mkdir] Created dir: /tmp/temp20220330210259302
+
+log-arg:
+     [echo] *****************************************************************
+     [echo] * basedir = /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4
+     [echo] * dita.dir = /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4
+     [echo] * transtype = html5-bootstrap
+     [echo] * tempdir = /tmp/temp20220330210259302
+     [echo] * outputdir = /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1
+     [echo] * clean.temp = true
+     [echo] * DITA-OT version = 3.4.0
+     [echo] * XML parser = Xerces
+     [echo] * XSLT processor = Saxon
+     [echo] * collator = ICU
+     [echo] *****************************************************************
+     [echo] #Ant properties
+     [echo] #Wed Mar 30 21:02:59 UTC 2022
+     [echo] args.copycss=yes
+     [echo] args.css=custom.css
+     [echo] args.css.file=custom.css
+     [echo] args.csspath=css
+     [echo] args.cssroot=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/net.infotexture.dita-bootstrap/css
+     [echo] args.filter=/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/adult.ditaval
+     [echo] args.grammar.cache=yes
+     [echo] args.hdf=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/net.infotexture.dita-bootstrap/includes/bootstrap.hdf.xml
+     [echo] args.hdr=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/net.infotexture.dita-bootstrap/includes/bs-navbar-default.hdr.xml
+     [echo] args.html5.toc=toc
+     [echo] args.input=/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/littlepigsmap.ditamap
+     [echo] args.xml.systemid.set=yes
+     [echo] args.xsl=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/net.infotexture.dita-bootstrap/xsl/html5-bootstrap.xsl
+     [echo] dita.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4
+     [echo] dita.extname=dita
+     [echo] dita.html5.reloadstylesheet=false
+     [echo] dita.output.dir=/opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1
+     [echo] dita.plugin.net.infotexture.dita-bootstrap.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/net.infotexture.dita-bootstrap
+     [echo] dita.plugin.org.dita.base.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.html5.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.html5
+     [echo] dita.plugin.org.dita.htmlhelp.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.htmlhelp
+     [echo] dita.plugin.org.dita.index.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.index
+     [echo] dita.plugin.org.dita.normalize.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.normalize
+     [echo] dita.plugin.org.dita.pdf2.axf.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.pdf2.axf
+     [echo] dita.plugin.org.dita.pdf2.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.pdf2
+     [echo] dita.plugin.org.dita.pdf2.fop.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.pdf2.fop
+     [echo] dita.plugin.org.dita.pdf2.xep.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.pdf2.xep
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.specialization.dita11
+     [echo] dita.plugin.org.dita.xhtml.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.xhtml
+     [echo] dita.plugin.org.lwdita.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.lwdita
+     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.oasis-open.dita.v1_2
+     [echo] dita.plugin.org.oasis-open.dita.v1_3.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.oasis-open.dita.v1_3
+     [echo] dita.plugin.org.oasis-open.xdita.v0_2_2.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.oasis-open.xdita.v0_2_2
+     [echo] dita.plugin.org.oasis.spec.pdf.dir=/opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.oasis.spec.pdf
+     [echo] dita.temp.dir=/tmp/temp20220330210259302
+     [echo] *****************************************************************
+
+build-init:
+
+preprocess.init:
+     [echo] *****************************************************************
+     [echo] * input = /opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/littlepigsmap.ditamap
+     [echo] *****************************************************************
+
+ditaval-merge:
+
+gen-list:
+ [gen-list] Using Xerces grammar pool for DTD and schema caching.
+ [gen-list] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/littlepigsmap.ditamap
+ [gen-list] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_1.dita
+ [gen-list] [DOTJ031I][INFO] No specified rule for 'audience=Adult' was found in the ditaval file. This value will use the default action, or a parent prop action if specified. To remove this message, you can specify a rule for 'audience=Adult' in the ditaval file.
+ [gen-list] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_2.dita
+ [gen-list] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_3.dita
+ [gen-list] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_4.dita
+ [gen-list] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_5.dita
+ [gen-list] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_6.dita
+ [gen-list] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_7.dita
+ [gen-list] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/reuse.dita
+ [gen-list] Serializing job specification
+
+debug-filter:
+   [filter] Using Xerces grammar pool for DTD and schema caching.
+   [filter] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_2.dita to file:/tmp/temp20220330210259302/chapter_2.dita
+   [filter] [DOTJ031I][INFO] No specified rule for 'audience=Adult' was found in the ditaval file. This value will use the default action, or a parent prop action if specified. To remove this message, you can specify a rule for 'audience=Adult' in the ditaval file.
+   [filter] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_3.dita to file:/tmp/temp20220330210259302/chapter_3.dita
+   [filter] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_6.dita to file:/tmp/temp20220330210259302/chapter_6.dita
+   [filter] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_1.dita to file:/tmp/temp20220330210259302/chapter_1.dita
+   [filter] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/littlepigsmap.ditamap to file:/tmp/temp20220330210259302/littlepigsmap.ditamap
+   [filter] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_4.dita to file:/tmp/temp20220330210259302/chapter_4.dita
+   [filter] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_7.dita to file:/tmp/temp20220330210259302/chapter_7.dita
+   [filter] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/reuse.dita to file:/tmp/temp20220330210259302/reuse.dita
+   [filter] Processing file:/opt/publishing-processors/temp_publish_store/pub-795295041/db/organizations/vt/repositories/master/content/documents/Spring2022/ashlyne/Threelittlepigs/chapter_5.dita to file:/tmp/temp20220330210259302/chapter_5.dita
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/canditopics.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/conref.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/conreftargets.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/copytosource.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/fullditamap.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/fullditamapandtopic.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/fullditatopic.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/hrefditatopic.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/hreftargets.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/html.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/image.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/outditafiles.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/resourceonly.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/resourceonly.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/subjectscheme.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/subtargets.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/user.input.file.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+
+mapref-check:
+
+mapref:
+   [mapref] Processing file:/tmp/temp20220330210259302/littlepigsmap.ditamap
+
+branch-filter:
+[branch-filter] Processing file:/tmp/temp20220330210259302/littlepigsmap.ditamap
+
+keyref:
+   [mapref] Transforming into /tmp/temp20220330210259302
+   [mapref] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/preprocess/mapref.xsl
+   [mapref] Processing /tmp/temp20220330210259302/littlepigsmap.ditamap
+
+copy-to:
+
+conrefpush:
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/conref.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+
+conref-check:
+
+conref:
+   [conref] Transforming into /tmp/temp20220330210259302
+   [conref] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/preprocess/conref.xsl
+   [conref] Processing /tmp/temp20220330210259302/chapter_2.dita
+   [conref] Processing /tmp/temp20220330210259302/chapter_3.dita
+   [conref] Processing /tmp/temp20220330210259302/chapter_6.dita
+   [conref] Processing /tmp/temp20220330210259302/chapter_1.dita
+   [conref] Processing /tmp/temp20220330210259302/chapter_4.dita
+   [conref] Processing /tmp/temp20220330210259302/chapter_5.dita
+
+profile-check:
+
+profile:
+
+topic-fragment:
+[topic-fragment] Processing file:/tmp/temp20220330210259302/chapter_2.dita
+[topic-fragment] Processing file:/tmp/temp20220330210259302/chapter_3.dita
+[topic-fragment] Processing file:/tmp/temp20220330210259302/chapter_6.dita
+[topic-fragment] Processing file:/tmp/temp20220330210259302/chapter_1.dita
+[topic-fragment] Processing file:/tmp/temp20220330210259302/chapter_4.dita
+[topic-fragment] Processing file:/tmp/temp20220330210259302/chapter_7.dita
+[topic-fragment] Processing file:/tmp/temp20220330210259302/reuse.dita
+[topic-fragment] Processing file:/tmp/temp20220330210259302/chapter_5.dita
+
+chunk-check:
+
+chunk:
+    [chunk] Processing file:/tmp/temp20220330210259302/littlepigsmap.ditamap
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/fullditatopic.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/fullditamap.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/fullditamapandtopic.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/resourceonly.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/copytosource.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+
+move-meta-entries:
+[move-meta] Processing file:/tmp/temp20220330210259302/littlepigsmap.ditamap
+[move-meta] Processing file:/tmp/temp20220330210259302/littlepigsmap.ditamap
+[move-meta] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/preprocess/mappull.xsl
+
+maplink-check:
+
+maplink:
+
+topicpull-check:
+
+topicpull:
+[topicpull] Transforming into /tmp/temp20220330210259302
+[topicpull] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Processing /tmp/temp20220330210259302/chapter_2.dita
+[topicpull] Processing /tmp/temp20220330210259302/chapter_3.dita
+[topicpull] Processing /tmp/temp20220330210259302/chapter_6.dita
+[topicpull] Processing /tmp/temp20220330210259302/chapter_1.dita
+[topicpull] Processing /tmp/temp20220330210259302/chapter_4.dita
+[topicpull] Processing /tmp/temp20220330210259302/chapter_7.dita
+[topicpull] Processing /tmp/temp20220330210259302/chapter_5.dita
+
+clean-map-check:
+
+clean-map:
+[clean-map] Transforming into /tmp/temp20220330210259302
+[clean-map] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Processing /tmp/temp20220330210259302/littlepigsmap.ditamap
+
+copy-image:
+     [copy] Copying 7 files to /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1
+
+copy-html:
+
+copy-flag-check:
+
+copy-flag:
+[job-helper] Processing /tmp/temp20220330210259302/.job.xml to /tmp/temp20220330210259302/flagimage.list
+[job-helper] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/org.dita.base/xsl/job-helper.xsl
+
+copy-files:
+
+preprocess:
+
+html5.topic.init:
+
+html5.image-metadata:
+[image-metadata] Processing /tmp/temp20220330210259302/chapter_2.dita
+[image-metadata] Reading file:/opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/woodpighouse.jpg
+[image-metadata] Processing /tmp/temp20220330210259302/chapter_3.dita
+[image-metadata] Reading file:/opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/pigbrickhouse.jpg
+[image-metadata] Processing /tmp/temp20220330210259302/chapter_6.dita
+[image-metadata] Reading file:/opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/wolf-adult.jpg
+[image-metadata] Processing /tmp/temp20220330210259302/chapter_1.dita
+[image-metadata] Reading file:/opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/pigstrawhouse.jpg
+[image-metadata] Processing /tmp/temp20220330210259302/chapter_4.dita
+[image-metadata] Reading file:/opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/allthreepigs.jpg
+[image-metadata] Processing /tmp/temp20220330210259302/chapter_7.dita
+[image-metadata] Reading file:/opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/twopigs.jpg
+[image-metadata] Processing /tmp/temp20220330210259302/chapter_5.dita
+[image-metadata] Reading file:/opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/wolf.jpg
+
+html5.topics.common:
+
+html5.topics.common.inner:
+     [xslt] Transforming into /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1
+     [xslt] Loading stylesheet /opt/publishing-processors/vt/dita-open-toolkits/dita-ot-3.4/plugins/net.infotexture.dita-bootstrap/xsl/html5-bootstrap.xsl
+     [xslt] Processing /tmp/temp20220330210259302/chapter_2.dita to /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/chapter_2.html
+     [xslt] Processing /tmp/temp20220330210259302/chapter_3.dita to /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/chapter_3.html
+     [xslt] Processing /tmp/temp20220330210259302/chapter_6.dita to /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/chapter_6.html
+     [xslt] Processing /tmp/temp20220330210259302/chapter_1.dita to /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/chapter_1.html
+     [xslt] Processing /tmp/temp20220330210259302/chapter_4.dita to /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/chapter_4.html
+     [xslt] Processing /tmp/temp20220330210259302/chapter_7.dita to /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/chapter_7.html
+     [xslt] Processing /tmp/temp20220330210259302/chapter_5.dita to /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/chapter_5.html
+
+html5.topic:
+
+html5.map.init:
+
+html5.map.toc:
+
+html5.map:
+
+html5.css:
+    [mkdir] Created dir: /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/css
+     [copy] Copying 2 files to /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/css
+
+html5.copy-css-user:
+     [copy] Copying 1 file to /opt/publishing-processors/temp_publish_store/pub-795295041/jmc_publish_littlepigsmap/bootstraphtml-1/css
+
+dita2html5:
+
+dita2html5-bootstrap:
+
+clean-temp:
+Processing ended.
+Fatals Reported By TK :: 0
+Errors Reported By TK :: 0
+Errors Found :: 0
+Possible Java Exceptions Found :: 0
+Warnings Found :: 0
